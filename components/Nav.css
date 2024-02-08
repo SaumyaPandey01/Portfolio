@@ -1,0 +1,40 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 70%;
+    gap:2rem;
+    padding: 1rem 0;
+/* height: 20vh; */
+    font-family: 'Morion';
+    font-size: 1.2rem;
+    color:var(--gold);
+    letter-spacing: 3px;
+    border-bottom: 1px var(--gold) solid;
+}
+.navigation ul{
+    display: flex;
+    gap:2rem;
+    list-style-type: none;
+}
+.navigation ul li:hover::after {
+    width: 100%;
+     left: 0%; 
+    position: relative;
+    transform: translateX(0%); 
+    transition: all 400ms ease;
+
+}
+
+.navigation ul li::after {
+    color: var(--tan);
+    content: "";
+    display: block;
+    width: 0%;
+    height: 1px;
+    background-color: var(--gold);
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
