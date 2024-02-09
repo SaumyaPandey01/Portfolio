@@ -1,44 +1,46 @@
-.hero-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100vh;
 }
 
-.heroBushes{
+.heroBushes {
+  width: 100vw;
+  /* background-color: red; */
+  /* background: url('../assets/heroFlowers.png'); */
+  background-size: cover;
+  position: fixed;
+  z-index: -5;
+  top: 0;
 
-    width: 100vw;
-    /* background-color: red; */
-    /* background: url('../assets/heroFlowers.png'); */
-    background-size: cover;
+  background-repeat: no-repeat;
 
-    background-repeat: no-repeat;
-
-    /* height: min-content; */
-    height: 100%;
+  /* height: min-content; */
+  height: 100%;
 }
-.kaliPatti{
+.kaliPatti {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: -10;
+  background-size: cover;
 
-    width: 100vw;
-position: absolute;
-top:0;
-z-index: -10;
-    background-size: cover;
+  background-repeat: no-repeat;
 
-    background-repeat: no-repeat;
-
-    height: 100%;
+  height: 100%;
 }
-.heroFlowers{
-    width: 100vw;
-    position: absolute;
-    
-    top:0;
-    z-index: 10;
-        background-size: cover;
-    
-        background-repeat: no-repeat;
-    
-        height: 100%;
+.heroFlowers {
+  width: 100vw;
+  /* position: sticky;
+
+  top: 0; */
+  /* z-index: 10; */
+  background-size: cover;
+  object-fit: cover;
+
+  background-repeat: no-repeat;
+
+  height: 100%;
 }
