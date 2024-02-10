@@ -1,7 +1,7 @@
 import "@/components/About.css";
 import Image from "next/image";
 import hrSvg from "@/assets/hr-svg.svg";
-import aboutImg from "@/assets/about-img.png";
+import aboutImg from "@/assets/saumya.jpeg";
 
 const About = () => {
   return (

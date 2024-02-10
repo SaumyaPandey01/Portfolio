@@ -10,7 +10,6 @@ const Hero = () => {
   return (
     <div className="hero-section">
       <Nav />
-
       {/* <div className="heroFlowers">
         <h1>SAUMYA PANDEY</h1>
       </div> */}
