@@ -10,6 +10,7 @@ const Art = () => {
     <section id="art-section">
       <h1 className="art-heading">ILLUSTRATIONS</h1>
       <hr className="art-hr" />
+
       <div className="art-section-images">
         <div className="slide-image">
           <Image src={image1} alt="image1" className="image1" />
@@ -19,7 +20,21 @@ const Art = () => {
           </div>
         </div>
         <div className="slide-image">
-          <Image src={image1} alt="image1" className="image1" />
+          <Image src={image2} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className="slide-image">
+          <Image src={image3} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className="slide-image">
+          <Image src={image4} alt="image1" className="image1" />
           <div>
             <h1>PINE TREES</h1>
             <p>Learn More</p>
@@ -33,28 +48,14 @@ const Art = () => {
           </div>
         </div>
         <div className="slide-image">
-          <Image src={image1} alt="image1" className="image1" />
+          <Image src={image2} alt="image1" className="image1" />
           <div>
             <h1>PINE TREES</h1>
             <p>Learn More</p>
           </div>
         </div>
         <div className="slide-image">
-          <Image src={image1} alt="image1" className="image1" />
-          <div>
-            <h1>PINE TREES</h1>
-            <p>Learn More</p>
-          </div>
-        </div>
-        <div className="slide-image">
-          <Image src={image1} alt="image1" className="image1" />
-          <div>
-            <h1>PINE TREES</h1>
-            <p>Learn More</p>
-          </div>
-        </div>
-        <div className="slide-image">
-          <Image src={image1} alt="image1" className="image1" />
+          <Image src={image3} alt="image1" className="image1" />
           <div>
             <h1>PINE TREES</h1>
             <p>Learn More</p>

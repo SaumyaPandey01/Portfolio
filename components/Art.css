@@ -34,7 +34,7 @@
   /* height: 60vh; */
 }
 
-.slide-image-individual {
+/* .slide-image-individual {
   width: 30vw;
   height: 60vh;
   transition: transform 200ms ease-in;
@@ -42,7 +42,7 @@
 }
 .slide-image-individual:hover {
   transform: translateY(-10px);
-}
+} */
 
 @keyframes scroll {
   0% {
@@ -57,11 +57,11 @@
   width: 30vw;
   height: 60vh;
   transition: transform 200ms ease-in;
-  background: url("/assets/1.png");
+  /* background: url("/assets/1.png"); */
   position: relative;
   display: flex;
   justify-content: center;
-  transition: transform 200ms ease-in;
+  /* transition: transform 200ms ease-in; */
   flex-shrink: 0;
 }
 
