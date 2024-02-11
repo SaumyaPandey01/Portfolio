@@ -12,13 +12,55 @@ const Art = () => {
       <hr className="art-hr" />
       <div className="art-section-images">
         <div className="slide-image">
-          <Image
-            className="slide-image-individual"
-            src={image1}
-            alt="heroflowers"
-          />
+          <Image src={image1} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
         </div>
         <div className="slide-image">
+          <Image src={image1} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className="slide-image">
+          <Image src={image1} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className="slide-image">
+          <Image src={image1} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className="slide-image">
+          <Image src={image1} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className="slide-image">
+          <Image src={image1} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        <div className="slide-image">
+          <Image src={image1} alt="image1" className="image1" />
+          <div>
+            <h1>PINE TREES</h1>
+            <p>Learn More</p>
+          </div>
+        </div>
+        {/* <div className="slide-image">
           <Image
             className="slide-image-individual"
             src={image2}
@@ -66,7 +108,7 @@ const Art = () => {
             src={image4}
             alt="heroflowers"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
