@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'Morion';
-  src: url('../assets/morion.woff') format('woff');
+  font-family: "Morion";
+  src: url("../assets/morion.woff") format("woff");
 }
 :root {
-  --primary-bg: #FFF5DF;
+  --primary-bg: #fff5df;
   --gold: #8a733e;
   --tan: #b7a26e;
+  --old-lace: #fff8e7;
+  --cream: #fff5df;
 }
 
-*{
+* {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
 }
 
-
-
-body{
+body {
   background-color: var(--primary-bg);
 }
