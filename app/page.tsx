@@ -5,6 +5,7 @@ import Art from "@/components/Art";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Project from "@/components/Project";
+import Socials from "@/components/Socials";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
       <About />
       <Project />
       <Contact />
+      <Socials />
 
       {/* transform: translate3d(49.992vw, -10.642vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(135deg) skew(0deg, 0deg);
     transform-style: preserve-3d;

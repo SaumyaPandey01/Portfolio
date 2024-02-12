@@ -1,0 +1,54 @@
+#socials-section {
+  /* height: 100vh; */
+  background-color: var(--primary-bg);
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-left: auto;
+  align-items: center;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--gold);
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+.top-navigator {
+  margin-left: auto;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  /* width: 20%; */
+  /* padding: 2rem; */
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color, color 0.3s ease;
+}
+
+.socials-wrapper {
+  display: flex;
+  width: 65vw;
+  justify-content: center;
+  color: var(--gold);
+  font-family: "Morion", sans-serif;
+  font-size: 1.3rem;
+}
+
+.top-navigator:hover {
+  background-color: var(--gold);
+  color: var(--primary-bg);
+}
