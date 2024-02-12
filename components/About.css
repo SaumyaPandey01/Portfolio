@@ -72,7 +72,7 @@
   transform: rotate(-103deg);
   fill: var(--gold);
   font-weight: bold;
-  z-index: 12;
+  z-index: 5;
 }
 
 @keyframes rotating {
@@ -84,5 +84,5 @@
   }
 }
 .rotating {
-  animation: rotating 5s linear infinite;
+  animation: rotating 10s linear infinite;
 }
