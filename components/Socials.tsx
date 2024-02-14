@@ -12,7 +12,9 @@ const Socials = () => {
           <FaLinkedinIn className="icon" />
           <FaXTwitter className="icon" />
         </div>
-        <div className="top-navigator">TO TOP</div>
+        <div className="top-navigator">
+          <a href="#">TO TOP</a>
+        </div>
       </div>
     </section>
   );

@@ -48,7 +48,17 @@
   font-size: 1.3rem;
 }
 
-.top-navigator:hover {
+.top-navigator a:hover {
   background-color: var(--gold);
   color: var(--primary-bg);
+}
+
+.top-navigator a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  color: var(--gold);
 }

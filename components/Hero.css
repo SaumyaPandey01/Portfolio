@@ -46,8 +46,8 @@
 }
 
 .hero-name {
-  font-family: "Morion", "Arial";
-  font-size: 8rem;
+  font-family: "Morion", sans-serif;
+  font-size: 7rem;
   position: relative;
   top: 15rem;
   z-index: -10;
